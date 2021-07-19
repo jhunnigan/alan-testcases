@@ -6,7 +6,7 @@ title("Change address.")
 intent("(change|update|set) $(L home|office|work) (address|location) to $(LOC)",
     reply("do you want to set $(L) address to $(LOC)",
         follow("(yes|ok|sure)", reply("ok, set")),
-        follow("(no|nope|cancel)", reply("cancelled"))))
+        follow("(no|nope|cancel)", reply("canceled"))))
 
 intent("(remember|set|update) (this|current|that) (location|address|) as $(L home|office|work) (address|)",
     p => {

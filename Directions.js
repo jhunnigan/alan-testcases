@@ -15,7 +15,7 @@ intent("(remember|set|update) (this|current|that) (location|address|) as $(L hom
 
 
 let where = context(()=> {
-    title("Question where?")
+    title("Questions where?")
 
     follow("(to my|to|my|) $(L home|office|work|gym)",
         async p => p.resolve(await getLocation(p, "your", p.L.value)))

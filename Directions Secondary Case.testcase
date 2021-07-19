@@ -1,1 +1,1 @@
-[{"id":"2241ae49-fe8e-2e3c-d815-f7c85d52246f","parentId":"","request":{"text":"Something here"},"response":"[{\"text\":\"I don't know how to do that\",\"error\":true,\"reqId\":\"1626695005273/1\",\"textInput\":true}]","meta":"{}","visualProperties":"{\"childIndex\":0}"}]
+[{"id":"2241ae49-fe8e-2e3c-d815-f7c85d52246f","parentId":"","request":{"text":"Something new here"},"response":"[{\"text\":\"I don't know how to do that\",\"error\":true,\"reqId\":\"1626695005273/1\",\"textInput\":true}]","meta":"{}","visualProperties":"{\"childIndex\":0}"}]
